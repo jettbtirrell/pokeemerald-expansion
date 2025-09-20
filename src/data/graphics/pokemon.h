@@ -26735,3 +26735,22 @@ const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_
     const u32 gMonFrontPic_Egg[] = INCBIN_U32("graphics/pokemon/egg/anim_front.4bpp.smol");
     const u16 gMonPalette_Egg[] = INCBIN_U16("graphics/pokemon/egg/normal.gbapal");
     const u8 gMonIcon_Egg[] = INCBIN_U8("graphics/pokemon/egg/icon.4bpp");
+
+    //TAEGO_FORMS
+    const u32 gMonFrontPic_DratiniTaego[] = INCBIN_U32("graphics/pokemon/dratini/taego/front.4bpp.lz");
+    const u16 gMonPalette_DratiniTaego[] = INCBIN_U16("graphics/pokemon/dratini/taego/normal.gbapal");
+    const u32 gMonBackPic_DratiniTaego[] = INCBIN_U32("graphics/pokemon/dratini/taego/back.4bpp.lz");
+    const u16 gMonShinyPalette_DratiniTaego[] = INCBIN_U16("graphics/pokemon/dratini/taego/shiny.gbapal");
+    const u8 gMonIcon_DratiniTaego[] = INCBIN_U8("graphics/pokemon/dratini/taego/icon.4bpp");
+
+    const u32 gMonFrontPic_DragonairTaego[] = INCBIN_U32("graphics/pokemon/dragonair/taego/front.4bpp.lz");
+    const u16 gMonPalette_DragonairTaego[] = INCBIN_U16("graphics/pokemon/dragonair/taego/normal.gbapal");
+    const u32 gMonBackPic_DragonairTaego[] = INCBIN_U32("graphics/pokemon/dragonair/taego/back.4bpp.lz");
+    const u16 gMonShinyPalette_DragonairTaego[] = INCBIN_U16("graphics/pokemon/dragonair/taego/shiny.gbapal");
+    const u8 gMonIcon_DragonairTaego[] = INCBIN_U8("graphics/pokemon/dragonair/taego/icon.4bpp");
+
+    const u32 gMonFrontPic_DragoniteTaego[] = INCBIN_U32("graphics/pokemon/dragonite/taego/front.4bpp.lz");
+    const u16 gMonPalette_DragoniteTaego[] = INCBIN_U16("graphics/pokemon/dragonite/taego/normal.gbapal");
+    const u32 gMonBackPic_DragoniteTaego[] = INCBIN_U32("graphics/pokemon/dragonite/taego/back.4bpp.lz");
+    const u16 gMonShinyPalette_DragoniteTaego[] = INCBIN_U16("graphics/pokemon/dragonite/taego/shiny.gbapal");
+    const u8 gMonIcon_DragoniteTaego[] = INCBIN_U8("graphics/pokemon/dragonite/taego/icon.4bpp");

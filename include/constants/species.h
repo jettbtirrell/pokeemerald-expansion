@@ -1638,7 +1638,12 @@
 #define SPECIES_MIMIKYU_BUSTED_TOTEM                    1523
 #define SPECIES_MIMIKYU_TOTEM_BUSTED                    SPECIES_MIMIKYU_BUSTED_TOTEM
 
-#define SPECIES_EGG                                     (SPECIES_MIMIKYU_BUSTED_TOTEM + 1)
+//Taego Forms
+#define SPECIES_DRATINI_TAEGO                           1524
+#define SPECIES_DRAGONAIR_TAEGO                         1525
+#define SPECIES_DRAGONITE_TAEGO                         1526
+
+#define SPECIES_EGG                                     (SPECIES_DRAGONITE_TAEGO + 1)
 
 #define NUM_SPECIES SPECIES_EGG
 

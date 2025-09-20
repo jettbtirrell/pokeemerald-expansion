@@ -1046,6 +1046,11 @@ void CreateBoxMon(struct BoxPokemon *boxMon, u16 species, u8 level, u8 fixedIV, 
     u8 selectedIvs[NUM_STATS];
     bool32 isShiny;
 
+    if (fixedIV >= USE_RANDOM_IVS)
+    {
+        fixedIV = MAX_PER_STAT_IVS;
+    }
+    
     ZeroBoxMonData(boxMon);
 
     // Determine original trainer ID

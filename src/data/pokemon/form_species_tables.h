@@ -311,6 +311,7 @@ static const u16 sSlowbroFormSpeciesIdTable[] = {
 #endif
     FORM_SPECIES_END,
 };
+#endif //P_FAMILY_SLOWBRO
 
 #if P_GEN_2_CROSS_EVOS
 static const u16 sSlowkingFormSpeciesIdTable[] = {
@@ -321,7 +322,34 @@ static const u16 sSlowkingFormSpeciesIdTable[] = {
     FORM_SPECIES_END,
 };
 #endif //P_GEN_2_CROSS_EVOS
-#endif //P_FAMILY_SLOWPOKE
+
+
+#if P_FAMILY_DRATINI
+static const u16 sDratiniFormSpeciesIdTable[] = {
+    SPECIES_DRATINI,
+#if P_TAEGO_FORMS
+    SPECIES_DRATINI_TAEGO,
+#endif
+    FORM_SPECIES_END,
+};
+
+static const u16 sDragonairFormSpeciesIdTable[] = {
+    SPECIES_DRAGONAIR,
+#if P_TAEGO_FORMS
+    SPECIES_DRAGONAIR_TAEGO,
+#endif
+    FORM_SPECIES_END,
+};
+
+static const u16 sDragoniteFormSpeciesIdTable[] = {
+    SPECIES_DRAGONITE,
+#if P_TAEGO_FORMS
+    SPECIES_DRAGONITE_TAEGO,
+#endif
+    FORM_SPECIES_END,
+};
+
+#endif //P_FAMILY_DRATINI
 
 #if P_FAMILY_FARFETCHD
 static const u16 sFarfetchdFormSpeciesIdTable[] = {
